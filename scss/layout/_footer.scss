@@ -1,24 +1,19 @@
-* {
-  border: solid yellow;
-}
-
 footer {
   background-color: $primary-color;
   height: 15vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  border: solid 1px rgb(0, 0, 0);
+  justify-content: center;
 }
 
 .navFooter {
-  border: solid 1px blue;
   width: 30%;
   height: 100%;
 }
 
 .ulFooter {
-  border: solid 1px rgb(0, 255, 200);
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -36,7 +31,6 @@ footer {
     align-items: center;
 
     img {
-      border: solid 1px red;
       width: 100%;
       height: 5vh;
       // Mantém a proporção da imagem e a adapta ao container
@@ -46,7 +40,6 @@ footer {
 }
 
 .infoFooter {
-  border: solid 1px red;
   width: 40%;
   height: 100%;
   display: flex;
@@ -63,7 +56,6 @@ footer {
 }
 
 .imgFooter {
-  border: solid 1px rgb(9, 209, 86);
   width: 30%;
   height: 100%;
   display: flex;
@@ -71,7 +63,6 @@ footer {
   align-items: center;
 
   img {
-    border: solid 1px rgb(9, 209, 86);
     width: 30%;
     height: 10vh;
     // Mantém a proporção da imagem e a adapta ao container
