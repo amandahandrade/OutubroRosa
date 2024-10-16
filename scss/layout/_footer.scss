@@ -1,0 +1,80 @@
+* {
+  border: solid yellow;
+}
+
+footer {
+  background-color: $primary-color;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: solid 1px rgb(0, 0, 0);
+}
+
+.navFooter {
+  border: solid 1px blue;
+  width: 30%;
+  height: 100%;
+}
+
+.ulFooter {
+  border: solid 1px rgb(0, 255, 200);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  li {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      border: solid 1px red;
+      width: 100%;
+      height: 5vh;
+      // Mantém a proporção da imagem e a adapta ao container
+      object-fit: contain;
+    }
+  }
+}
+
+.infoFooter {
+  border: solid 1px red;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+  p {
+    font-size: 20px;
+    line-height: 27.24px;
+    color: $white;
+  }
+}
+
+.imgFooter {
+  border: solid 1px rgb(9, 209, 86);
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  img {
+    border: solid 1px rgb(9, 209, 86);
+    width: 30%;
+    height: 10vh;
+    // Mantém a proporção da imagem e a adapta ao container
+    object-fit: contain;
+  }
+}
